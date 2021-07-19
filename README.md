@@ -17,13 +17,21 @@ Get về máy và mở nhưng không thu được gì:v
 
 Khai thác port 80:
 
-Scan thư mục ẩn:
+Scan thư mục ẩn bằng gobuster:
+
+![image](https://user-images.githubusercontent.com/72652376/126100984-f819fa64-d3f8-43df-898b-fee3167c0fcc.png)
+
 
 /file:
 
 Ta thấy file CALL.html ở dịch vụ ftp. Liệu có thể upload shell bằng cách này không
 
+
+
+
 ![image](https://user-images.githubusercontent.com/72652376/126099072-d8a6da64-a92b-4df3-b0b4-e006dee74356.png)
+
+![image](https://user-images.githubusercontent.com/72652376/126101033-b83f0d0b-3077-4071-b0c9-a34b0420155d.png)
 
 Thử upload và lắng nghe trên kali
 
